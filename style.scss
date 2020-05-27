@@ -68,12 +68,12 @@ header {
     margin-bottom: 40px;
     font-size: 48px;
     span {
-      border-bottom: 2px dotted #383838;
+      border-bottom: 1px dotted #383838;
       font-size: 48px;
     }
   }
   a {
-    border-bottom: 1px dotted $color;
+    border-bottom: 1px dotted #383838;
     font-size: 40px;
     transition: ease 0.3s;
     &:hover {

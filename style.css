@@ -85,12 +85,12 @@ header p {
 }
 
 .landing p span {
-  border-bottom: 2px dotted #383838;
+  border-bottom: 1px dotted #383838;
   font-size: 48px;
 }
 
 .landing a {
-  border-bottom: 1px dotted #0000ee;
+  border-bottom: 1px dotted #383838;
   font-size: 40px;
   -webkit-transition: ease 0.3s;
   transition: ease 0.3s;
