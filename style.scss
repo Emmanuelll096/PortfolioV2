@@ -1,22 +1,21 @@
 $color: #0000ee;
-$outline: 130px;
+$outline: 100px;
 
 * {
   color: #383838;
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
-  height: 100vh;
-  padding-top: 40px;
+  height:50vh;
+  padding-top: 20px;
   max-width: 95vw;
   margin: auto;
 }
 main {
-  margin-top: 50px;
   .email {
     writing-mode: vertical-rl;
     position: fixed;
@@ -38,7 +37,7 @@ header {
   nav {
     a {
       padding-left: 30px;
-      transition: ease 0.5s;
+      transition: ease 0.3s;
       &:hover {
         color: $color;
       }
@@ -63,16 +62,16 @@ header {
   p {
     width: 1000px;
     margin-bottom: 40px;
-    font-size: 72px;
+    font-size: 64px;
     span {
       border-bottom: 2px dotted #383838;
-      font-size: 72px;
+      font-size: 64px;
     }
   }
   a {
     border-bottom: 1px dotted $color;
-    font-size: 50px;
-    transition: ease 0.5s;
+    font-size: 48px;
+    transition: ease 0.3s;
     &:hover {
       color: $color;
     }
