@@ -20,7 +20,7 @@ main {
     writing-mode: vertical-rl;
     position: fixed;
     bottom: 10px;
-    right: 30px;
+    right: 10px;
     a {
       transition: ease 0.5s;
       &:hover {
@@ -32,11 +32,11 @@ main {
 header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   nav {
     a {
-      padding-left: 30px;
+      padding-left: 10px;
       transition: ease 0.3s;
       &:hover {
         color: $color;
@@ -45,6 +45,9 @@ header {
   }
   span {
     color: $color;
+  }
+  p{
+    font-family: youngserif ;
   }
 }
 .landing {
@@ -82,3 +85,11 @@ header {
   }
 }
 
+
+
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+}
