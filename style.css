@@ -8,7 +8,7 @@
 }
 
 body {
-  height: 50vh;
+  height: 75vh;
   padding-top: 20px;
   max-width: 95vw;
   margin: auto;
@@ -65,28 +65,29 @@ header span {
 }
 
 .landing h1 {
-  font-family: harbour-medium;
-  font-size: 100px;
+  font-family: youngserif,Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  font-size: 120px;
   margin-bottom: 20px;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #383838;
+  -webkit-text-stroke-color: #000;
 }
 
 .landing p {
-  width: 1000px;
+  width: 800px;
   margin-bottom: 40px;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 .landing p span {
   border-bottom: 2px dotted #383838;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 .landing a {
   border-bottom: 1px dotted #0000ee;
-  font-size: 48px;
+  font-size: 40px;
   -webkit-transition: ease 0.3s;
   transition: ease 0.3s;
 }
@@ -96,6 +97,6 @@ header span {
 }
 
 .landing .contact-links {
-  font-size: 64px;
+  font-size: 40px;
 }
 /*# sourceMappingURL=style.css.map */
