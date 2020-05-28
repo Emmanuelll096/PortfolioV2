@@ -108,24 +108,29 @@ header {
   grid-template-rows: repeat(14, 1fr);
 
   & > div {
-    border-radius: 10px;
-    p {
-      padding: 20px;
-    }
   }
   .title {
-    grid-column: 2 / span 6;
+    grid-column: 2 / span 5;
+    border-bottom: 1px solid rgb(197, 197, 197);
   }
   .card-1 {
     border: 1px solid;
     grid-column: 2 / span 5;
     grid-row: 3 / span 8;
+    border-radius: 10px;
+    p {
+      padding: 20px;
+    }
   }
   .card-2 {
     border: 1px solid;
     grid-column: 8 / span 5;
     grid-row: 4 / span 8;
     margin-left: 20px;
+    border-radius: 10px;
+    p {
+      padding: 20px;
+    }
   }
 }
 
@@ -136,7 +141,8 @@ header {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
   .title {
-    grid-column: 2 / span 4;
+    grid-column: 2 / span 2;
+    border-bottom: 1px solid rgb(197, 197, 197);
   }
   .card-3 {
     grid-column: 2 / span 5;
@@ -170,8 +176,11 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
+
   .title {
-    grid-column: 2 / span 4;
+    grid-column: 2 / span 3;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-bottom: 40px;
   }
   .card-7 {
     grid-row: 2 / span 4;
