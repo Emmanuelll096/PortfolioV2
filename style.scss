@@ -87,7 +87,8 @@ header {
   width: 95%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px 80px;
+  grid-template-rows: repeat(12, 1fr);
+  gap: 60px;
   text-align: left;
   .card {
     grid-column: 2 / span 7;
@@ -102,15 +103,15 @@ header {
   }
 }
 .work {
-  margin-bottom: 150px;
   width: 95%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px 80px;
-  div {
+  grid-template-rows: repeat(12, 1fr);
+  gap: 60px;
+    div {
     border: 3px solid black;
     border-radius: 13px;
-    grid-row: 1 / span 18;
+    grid-row: 1 / span 10;
     grid-column: 7 / span 5;
   }
   .card {
@@ -125,7 +126,8 @@ header {
   width: 95%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px 80px;
+  grid-template-rows: repeat(12, 1fr);
+  gap: 60px;
   text-align: left;
   div {
     border-radius: 13px;
@@ -148,7 +150,8 @@ header {
   width: 95%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px 80px;
+  grid-template-rows: repeat(12, 1fr);
+  gap: 60px;
   text-align: left;
   div {
     border-radius: 13px;
