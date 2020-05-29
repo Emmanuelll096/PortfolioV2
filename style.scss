@@ -53,7 +53,7 @@ header {
 .container-landing {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   grid-gap: 20px;
 
   .big-type {
