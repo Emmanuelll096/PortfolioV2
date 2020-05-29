@@ -105,9 +105,9 @@ header span {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1 / span 10;
-  -ms-grid-row: 8;
+  -ms-grid-row: 7;
   -ms-grid-row-span: 10;
-  grid-row: 8 / span 10;
+  grid-row: 7 / span 10;
 }
 
 .container-landing .contact-links p {

@@ -37,7 +37,7 @@ header {
     a {
       padding-left: 10px;
       transition: ease 0.3s;
-      
+
       &:hover {
         color: #df15a2;
       }
@@ -88,7 +88,7 @@ header {
   .contact-links {
     margin-top: 20px;
     grid-column: 1 / span 10;
-    grid-row: 8 / span 10;
+    grid-row: 7 / span 10;
 
     p {
       font-size: 48px;
@@ -141,7 +141,7 @@ header {
     grid-row: 4 / span 8;
     margin-left: 20px;
     border-radius: 10px;
-    
+
     p {
       padding: 20px;
     }
@@ -240,7 +240,7 @@ footer {
 
     a {
       transition: ease 0.5s;
-      
+
       &:hover {
         color: #df15a2;
       }
