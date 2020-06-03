@@ -106,9 +106,9 @@ header span {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1 / span 10;
-  -ms-grid-row: 7;
+  -ms-grid-row: 6;
   -ms-grid-row-span: 10;
-  grid-row: 7 / span 10;
+  grid-row: 6 / span 10;
 }
 
 .container-landing .contact-links p {
@@ -202,13 +202,14 @@ header span {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[8];
-      grid-template-rows: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[7];
+      grid-template-rows: repeat(7, 1fr);
 }
 
 .container-resume li {
   font-size: 20px;
   line-height: 2;
+  color: #00ee;
 }
 
 .container-resume .title {
@@ -266,6 +267,11 @@ header span {
   line-height: 2;
 }
 
+.skills {
+  -ms-grid-rows: (1fr)[7];
+      grid-template-rows: repeat(7, 1fr);
+}
+
 .skills li {
   font-size: 30px;
   list-style: none;
@@ -276,8 +282,8 @@ header span {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[8];
-      grid-template-rows: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
 }
 
 .container-about .title {
@@ -315,8 +321,7 @@ header span {
 }
 
 footer {
-  bottom: 10px;
-  left: 10px;
+  margin-bottom: 10px;
 }
 
 footer p {
