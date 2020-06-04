@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
@@ -23,8 +25,8 @@
         </div>
         <div class="landing-text">
           <p>
-            I’m an aspiring <span> Junior Developer </span>from London, United Kingdom. I am currently on on a 12-week
-            intensive web development course at _nology.io.
+            I’m an aspiring <span> Junior Developer </span>from London, United Kingdom. I am
+            currently on on a 12-week intensive web development course at _nology.io.
           </p>
         </div>
         <div class="contact-links">
@@ -38,20 +40,19 @@
         </div>
       </section>
 
-      <section class="container-work" data-aos="fade-in">
-        <div class="title" id="work"><h2>Selected Work</h2></div>
-        <div class="card-1">
-          <p>Project 1</p>
+      <div class="title-1" id="work" data-aos="fade-in"><h2>Selected Work</h2></div>
+      <section class="container-work swiper-container" data-aos="fade-in">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Project 1</div>
+          <div class="swiper-slide">Project 2</div>
+          <div class="swiper-slide">Project 3</div>
         </div>
-        <div class="card-2">
-          <p>Project 2</p>
-        </div>
-        <div class="card-1 extra-1">
-          <p>Project 3</p>
-        </div>
-        <div class="card-2 extra-2">
-          <p>Project 4</p>
-        </div>
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </section>
 
       <section class="container-resume" data-aos="fade-in">
@@ -95,10 +96,11 @@
         <div class="title" id="about"><h2>About Me</h2></div>
         <div class="card-7">
           <p>
-            Hi! My name is EJ, I am a 24 year old British-Nigerian with a passion for all things computer science!, I
-            have been self teaching my self coding for a few months in my spare time, but have significantly increased
-            my time spent learning since quitting my job in retail banking a few months ago to pursue my dream career!
-            When I'm not writing code, I enjoy working out in the gym, socialising and plenty of netflix!
+            Hi! My name is EJ, I am a 24 year old British-Nigerian with a passion for all things
+            computer science!, I have been self teaching my self coding for a few months in my spare
+            time, but have significantly increased my time spent learning since quitting my job in
+            retail banking a few months ago to pursue my dream career! When I'm not writing code, I
+            enjoy working out in the gym, socialising and plenty of netflix!
           </p>
         </div>
         <div class="headshot-2"><p>Headshot 2</p></div>
@@ -106,7 +108,7 @@
     </main>
 
     <footer>
-      <p>Created with &#10084; by EJ</p>
+      <p>Created by EJ &#129304;</p>
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -116,6 +118,29 @@
         duration: 1000,
       });
     </script>
-    <script src="./scripts.js"></script>
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper(".swiper-container", {
+        // Optional parameters
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
   </body>
 </html>
