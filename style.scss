@@ -16,6 +16,7 @@ body {
 
   h2 {
     font-size: 80px;
+    color: #494b4d;
   }
 
   h3 {
@@ -120,9 +121,17 @@ header {
 
 // SELECTED WORK
 .title-1 {
-  border-bottom: solid 1px rgb(197, 197, 197);
   margin-bottom: 100px;
   width: 530px;
+  position: absolute;
+  z-index: 1;
+}
+.title-cont{
+margin-bottom: 40px;
+}
+
+img{
+  position: relative;
 }
 
 .swiper-container {
@@ -146,7 +155,9 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-
+img{
+  position: relative;
+}
   li {
     font-size: 20px;
     line-height: 2;
@@ -155,29 +166,29 @@ header {
 
   .title {
     grid-column: 1 / span 2;
-    border-bottom: 1px solid rgb(197, 197, 197);
     margin-top: 20px;
+    position: absolute;
   }
 
   .card-3 {
     grid-column: 2 / span 5;
-    grid-row: 3 / span 6;
+    grid-row: 1 / span 6;
   }
 
   .card-4 {
     grid-column: 7 / span 5;
-    grid-row: 3 / span 6;
+    grid-row: 1 / span 6;
     margin-left: 20px;
   }
 
   .card-5 {
     grid-column: 2 / span 5;
-    grid-row: 3 / span 6;
+    grid-row: 1 / span 6;
   }
 
   .card-6 {
     grid-column: 7 / span 5;
-    grid-row: 3 / span 6;
+    grid-row: 1 / span 6;
     margin-left: 20px;
   }
 
@@ -196,6 +207,7 @@ header {
   margin-bottom: 80px;
   .title {
     width: 210px;
+    position: absolute;
   }
   li {
     font-size: 30px;
@@ -208,16 +220,18 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-
+  img {
+    position: relative;
+  }
   .title {
     width: 360px;
     grid-column: 1 / span 3;
-    border-bottom: 1px solid rgb(197, 197, 197);
     margin-top: 20px;
+    position: absolute;
   }
 
   .card-7 {
-    grid-row: 3 / span 4;
+    grid-row: 1 / span 4;
     grid-column: 2 / span 7;
 
     p {
@@ -228,7 +242,7 @@ header {
 
   .headshot-2 {
     border: 1px solid;
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 2;
     grid-column: 10 / span 2;
     text-align: center;
   }
