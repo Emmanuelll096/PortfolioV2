@@ -127,6 +127,10 @@ header span {
   text-align: center;
 }
 
+.container-landing .headshot-1 img {
+  border-radius: 20px;
+}
+
 .container-landing a {
   border-bottom: 1px dotted #383838;
   font-size: 40px;
@@ -163,6 +167,7 @@ header span {
           align-items: center;
   font-size: 60px;
   width: 100px;
+  border-radius: 20px;
 }
 
 .container-resume {
@@ -170,8 +175,8 @@ header span {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[7];
-      grid-template-rows: repeat(7, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
 }
 
 .container-resume li {
@@ -236,8 +241,13 @@ header span {
 }
 
 .skills {
-  -ms-grid-rows: (1fr)[7];
-      grid-template-rows: repeat(7, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  margin-bottom: 80px;
+}
+
+.skills .title {
+  width: 210px;
 }
 
 .skills li {
@@ -255,6 +265,7 @@ header span {
 }
 
 .container-about .title {
+  width: 360px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / span 3;
@@ -294,5 +305,4 @@ footer {
 footer p {
   font-size: 20px;
 }
-
 /*# sourceMappingURL=style.css.map */
