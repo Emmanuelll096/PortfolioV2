@@ -120,16 +120,15 @@ header {
 
 // SELECTED WORK
 .title-1 {
-  margin-bottom: 100px;
   width: 530px;
   position: absolute;
   z-index: 1;
 }
-.title-cont{
-margin-bottom: 40px;
+.title-cont {
+  margin-bottom: 40px;
 }
 
-img{
+img {
   position: relative;
 }
 
@@ -154,9 +153,9 @@ img{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-img{
-  position: relative;
-}
+  img {
+    position: relative;
+  }
   li {
     font-size: 20px;
     line-height: 2;
@@ -198,15 +197,6 @@ img{
   p {
     font-size: 30px;
     line-height: 2;
-  }
-}
-
-.skills {
-  grid-template-rows: repeat(5, 1fr);
-  margin-bottom: 80px;
-  .title {
-    width: 210px;
-    position: absolute;
   }
   li {
     font-size: 30px;

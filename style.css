@@ -144,7 +144,6 @@ header span {
 }
 
 .title-1 {
-  margin-bottom: 100px;
   width: 530px;
   position: absolute;
   z-index: 1;
@@ -253,18 +252,7 @@ img {
   line-height: 2;
 }
 
-.skills {
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
-  margin-bottom: 80px;
-}
-
-.skills .title {
-  width: 210px;
-  position: absolute;
-}
-
-.skills li {
+.container-resume li {
   font-size: 30px;
   list-style: none;
 }
