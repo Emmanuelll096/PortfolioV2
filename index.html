@@ -19,6 +19,7 @@
         <a href="#contact"><span>04.</span> Contact</a>
       </nav>
     </header>
+
     <main>
       <section class="container-landing" data-aos="fade-in">
         <div class="big-type">
@@ -26,8 +27,8 @@
         </div>
         <div class="landing-text">
           <p>
-            I’m an aspiring <span> Junior Developer </span> & <span> Creative Designer</span> from London, United Kingdom. I am
-            currently a Trainee at _nology.io.
+            I’m an aspiring <span> Junior Developer </span> & <span> Creative Designer</span> from
+            London, United Kingdom. I am currently a Trainee at _nology.io.
           </p>
         </div>
         <div class="contact-links">
@@ -40,6 +41,7 @@
           <img src="./ej1.png" alt="" />
         </div>
       </section>
+      <div class="email"><a href="">emmanuel.ichiebuka@gmail.com</a></div>
 
       <div data-aos="fade-in" class="title-cont">
         <div class="title-1" id="work"><h2>Selected Work</h2></div>
@@ -58,11 +60,10 @@
         <div class="swiper-pagination"></div>
       </section>
 
-   
-        <div class="title-cont" data-aos="fade-in">
-          <div class="title-1" id="resume"><h2>Resumé</h2></div>
-          <div><img src="./gradient.png" alt=""/></div>
-        </div>
+      <div class="title-cont" data-aos="fade-in">
+        <div class="title-1" id="resume"><h2>Resumé</h2></div>
+        <div><img src="./gradient.png" alt="" /></div>
+      </div>
 
       <section class="container-resume" data-aos="fade-in">
         <div class="card-3">
@@ -83,10 +84,9 @@
         </div>
       </section>
 
-
       <div class="title-cont" data-aos="fade-in">
         <div class="title-1" id="skills"><h2>Skills</h2></div>
-        <div><img src="./gradient.png" alt=""/></div>
+        <div><img src="./gradient.png" alt="" /></div>
       </div>
       <section class="container-resume skills" data-aos="fade-in">
         <div class="card-5">
@@ -98,8 +98,6 @@
           <li>SASS</li>
           <li>JavaScript</li>
           <li>Ruby</li>
-    
-     
         </div>
         <div class="card-6">
           <h3>Tools</h3>
@@ -110,60 +108,56 @@
 
       <div class="title-cont" data-aos="fade-in">
         <div class="title-1" id="about"><h2>About Me</h2></div>
-        <div><img src="./gradient.png" alt=""/></div>
-      
-      <section class="container-about" data-aos="fade-in">
-        <div class="card-7">
-          <p>
-            Hi! My name is EJ, I am a 24 year old British-Nigerian with a passion for all things
-            computer science!, I have been self teaching my self coding for a few months in my spare
-            time, but have significantly increased my time spent learning since quitting my job in
-            retail banking a few months ago to pursue my dream career! When I'm not writing code, I
-            enjoy working out in the gym, socialising and plenty of netflix!
-          </p>
-        </div>
-        <div class="headshot-2"><p>Headshot 2</p></div>
-      </section>
+        <div><img src="./gradient.png" alt="" /></div>
+
+        <section class="container-about" data-aos="fade-in">
+          <div class="card-7">
+            <p>
+              Hi! My name is EJ, I am a 24 year old British-Nigerian with a passion for all things
+              computer science!, I have been self teaching my self coding for a few months in my
+              spare time, but have significantly increased my time spent learning since quitting my
+              job in retail banking a few months ago to pursue my dream career! When I'm not writing
+              code, I enjoy working out in the gym, socialising and plenty of netflix!
+            </p>
+          </div>
+          <div class="headshot-2"><p>Headshot 2</p></div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 400,
+            duration: 1000,
+          });
+        </script>
+
+        <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script>
+          var swiper = new Swiper(".swiper-container", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // init: false,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+            },
+          });
+        </script>
+      </div>
     </main>
-
-    <footer>
-      <p>Created by EJ &#129304;</p>
-    </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset: 400,
-        duration: 1000,
-      });
-    </script>
-
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        // init: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
