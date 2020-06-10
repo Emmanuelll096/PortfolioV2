@@ -18,6 +18,7 @@ body {
 
 body h2 {
   font-size: 80px;
+  color: #000;
 }
 
 body h3 {
@@ -194,6 +195,10 @@ img {
           align-items: center;
   font-size: 60px;
   width: 100px;
+  border-radius: 20px;
+}
+
+.swiper-container .swiper-slide img {
   border-radius: 20px;
 }
 
